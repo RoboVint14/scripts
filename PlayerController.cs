@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         }
         if (Input.GetKeyDown(KeyCode.Alpha2) && isRifle)
         {
-            ChooseWeapon(Weapons.Rifle);
+            
             //photonView.RPC("ChooseWeapon", RpcTarget.All, Weapons.Rifle);
         }
             //Здесь допиши логику для минигана и для отсутствия оружия
