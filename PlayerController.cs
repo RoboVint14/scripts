@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         }
         if (Input.GetKeyDown(KeyCode.Alpha1) && isPistol)
         {
-            
+            ChooseWeapon(Weapons.Pistol);
             //photonView.RPC("ChooseWeapon", RpcTarget.All, Weapons.Pistol);
         }
         if (Input.GetKeyDown(KeyCode.Alpha2) && isRifle)
